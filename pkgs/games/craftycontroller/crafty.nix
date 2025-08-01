@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication rec {
   version = "4.4.11";
   pyproject = true;
 
-  src = fetchFromGitlab {
+  src = fetchFromGitLab {
     domain = "gitlab.com";
     owner = "crafty-controller";
     repo = "Crafty 4";
