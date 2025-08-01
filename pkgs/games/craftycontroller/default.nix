@@ -2,7 +2,6 @@
   fetchFromGitlab,
   python3Packages,
   lib,
-  python3,
 }:
 
 python3Packages.buildPythonApplication rec {
