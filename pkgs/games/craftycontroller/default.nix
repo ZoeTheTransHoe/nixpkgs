@@ -1,5 +1,6 @@
-with import <nixpkgs> {
-  fetchFromGitlab
+{
+  fetchFromGitlab,
+  python3Packages,
 }:
 
 python3Packages.buildPythonApplication rec {
