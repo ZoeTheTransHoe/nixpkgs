@@ -1,6 +1,6 @@
 with import <nixpkgs> {};
 
-python3Packages.pkgs.buildPythonApplication rec {
+python3Packages.buildPythonApplication rec {
   pname = "craftycontroller";
   version = "4.4.11";
   pyproject = true;
