@@ -91,7 +91,7 @@ python3Packages.buildPythonApplication rec {
     description = "Web GUI for managing Minecraft Servers";
     homepage = "https://gitlab.com/crafty-controller/crafty-4";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers [ ZoeyAhmed ];
+    maintainers = with lib.maintainers; [ ZoeyAhmed ];
   };
 }
 
