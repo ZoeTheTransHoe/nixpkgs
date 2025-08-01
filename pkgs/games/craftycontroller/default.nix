@@ -6,15 +6,8 @@
   fetchFromGitlab,
   buildPythonPackage,
   python3Packages,
-
-  # build-system
-  setuptools,
   setuptools-scm,
-
-  # dependencies
   setuptools,
-
-  #Python3 packages
   pyyaml,
   pillow,
   apscheduler,
