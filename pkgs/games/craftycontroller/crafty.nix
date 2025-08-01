@@ -1,5 +1,5 @@
 {
-  fetchFromGitlab,
+  fetchFromGitLab,
   python3Packages,
   lib,
 }:
