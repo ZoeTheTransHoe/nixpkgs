@@ -53,32 +53,33 @@ python3Packages.buildPythonApplication rec {
     repo = "Crafty 4";
     rev = "a44f5ea9a9566a608cbbc8753f6ac35f5cc5b063";
     hash = "sha256-0f9c494063b2a1ca13e724da48c025dd127fa4d55942606ec74a2dbf17144a04";
-  };
+  }
   strictDeps = true;
 
+
   dependencies = with python3Packages; [
-    pyyaml,
-    pillow,
-    apscheduler,
-    argon2-cffi,
-    cached_property,
-    colorama,
-    croniter,
-    cryptography,
-    libgravatar,
-    nh3,
-    packaging,
-    peewee,
-    psutil,
-    pyjwt,
-    requests,
-    termcolor,
-    tornado,
-    tzlocal,
-    jsonschema,
-    orjson,
-    prometheus-client,
-    pyotp,
+    pyyaml
+    pillow
+    apscheduler
+    argon2-cffi
+    cached_property
+    colorama
+    croniter
+    cryptography
+    libgravatar
+    nh3
+    packaging
+    peewee
+    psutil
+    pyjwt
+    requests
+    termcolor
+    tornado
+    tzlocal
+    jsonschema
+    orjson
+    prometheus-client
+    pyotp
   ];
 
   postPatch = {
