@@ -1,39 +1,5 @@
 with import <nixpkgs> {};
 
-{
-  python3Packages,
-  jdk8,
-  jre8,
-  lib,
-  fetchFromGitlab,
-  buildPythonPackage,
-  setuptools-scm,
-  setuptools,
-  pyyaml,
-  pillow,
-  apscheduler,
-  argon2-cffi,
-  cached_property,
-  colorama,
-  croniter,
-  cryptography,
-  libgravatar,
-  nh3,
-  packaging,
-  peewee,
-  psutil,
-  pyjwt,
-  requests,
-  termcolor,
-  tornado,
-  tzlocal,
-  jsonschema,
-  orjson,
-  prometheus-client,
-  pyotp,
-  hypothesis,
-}:
-
 python3Packages.pkgs.buildPythonApplication rec {
   pname = "craftycontroller";
   version = "4.4.11";
