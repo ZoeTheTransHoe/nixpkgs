@@ -2,6 +2,30 @@
   fetchFromGitLab,
   python3Packages,
   lib,
+  pyyaml,
+  pillow,
+  apscheduler,
+  argon2-cffi,
+  cached_property,
+  colorama,
+  croniter,
+  cryptography,
+  libgravatar,
+  nh3,
+  packaging,
+  peewee,
+  psutil,
+  pyjwt,
+  requests,
+  termcolor,
+  tornado,
+  tzlocal,
+  jsonschema,
+  orjson,
+  prometheus-client,
+  pyotp,
+  jre8,
+  jdk8,
 }:
 
 python3Packages.buildPythonApplication rec {
@@ -17,7 +41,6 @@ python3Packages.buildPythonApplication rec {
     hash = "sha256-0f9c494063b2a1ca13e724da48c025dd127fa4d55942606ec74a2dbf17144a04";
   };
   strictDeps = true;
-
 
   dependencies = with python3Packages; [
     pyyaml
@@ -44,11 +67,7 @@ python3Packages.buildPythonApplication rec {
     pyotp
   ];
 
-  postPatch = {
-
-  };
-
-  meta = {
+ meta = {
     changelog = "https://gitlab.com/crafty-controller/crafty-4/~/releases/v${version}";
     description = "Web GUI for managing Minecraft Servers";
     homepage = "https://gitlab.com/crafty-controller/crafty-4";
