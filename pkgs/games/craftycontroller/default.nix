@@ -1,11 +1,10 @@
 {
-  python3,
+  python3Packages,
   jdk8,
   jre8,
   lib,
   fetchFromGitlab,
   buildPythonPackage,
-  python3Packages,
   setuptools-scm,
   setuptools,
   pyyaml,
