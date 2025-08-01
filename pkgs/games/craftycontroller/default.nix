@@ -1,4 +1,6 @@
-with import <nixpkgs> {};
+with import <nixpkgs> {
+  fetchFromGitlab
+};
 
 python3Packages.buildPythonApplication rec {
   pname = "craftycontroller";
