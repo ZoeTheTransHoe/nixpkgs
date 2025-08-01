@@ -1,4 +1,4 @@
-{
+{ pkgs ? import <nixpkgs> { system = builtins.currentSystem; }
   python3Packages,
   jdk8,
   jre8,
