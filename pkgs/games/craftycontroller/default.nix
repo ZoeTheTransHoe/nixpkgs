@@ -29,12 +29,10 @@
   orjson,
   prometheus-client,
   pyotp,
-
-  # tests
   hypothesis,
 }:
 
-python3Packages.buildPythonApplication rec {
+python3Packages.pkgs.buildPythonApplication rec {
   pname = "craftycontroller";
   version = "4.4.11";
   pyproject = true;
